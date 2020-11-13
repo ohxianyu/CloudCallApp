@@ -1,0 +1,81 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index"
+		},
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/workbench/workbench"
+		}, {
+			"path": "pages/callLog/callLog"
+		}, {
+			"path": "pages/user/user"
+		}, { 
+			"path": "pages/cloudCall/cloudCall",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/myMission/myMission",
+            "style" : {}
+        },
+		{
+		    "path" : "pages/customerInformation/customerInformation",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/callRecord/callRecord",
+		    "style" : {}
+		},
+		{
+			"path": "pages/cloudCall/cloudCall"
+		}
+        ,{
+            "path" : "pages/forget-pwd/forget-pwd",
+            "style" : {
+				"transparentTitle":"always"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "云呼叫",
+		"navigationBarBackgroundColor": "#017AFD",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#017AFD",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/Dial.png",
+			"selectedIconPath": "static/image/Dial-a.png",
+			"text": "拨号盘"
+		}, {
+			"pagePath": "pages/callLog/callLog",
+			"iconPath": "static/image/tel.png",
+			"selectedIconPath": "static/image/tel-a.png",
+			"text": "通话记录"
+		}, {
+			"pagePath": "pages/workbench/workbench",
+			"iconPath": "static/image/work.png",
+			"selectedIconPath": "static/image/work-a.png", 
+			"text": "工作台"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "static/image/my.png",
+			"selectedIconPath": "static/image/my-a.png",
+			"text": "我的"
+		}]
+	}
+}
